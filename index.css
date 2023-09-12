@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin-top: 20px;
+}
+
+.container {
+    max-width: 400px;
+    height: 95vh;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+img {
+    max-width: 100%;
+    height:auto;
+}
+
+.github{
+    background-color: #e08fc0;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;  
+    border-radius: 5px;       
+}
+
+.github:hover{
+    background-color: #15df9c;
+    color: white;
+}
